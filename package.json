@@ -2,7 +2,7 @@
   "name": "tech-blog",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yashbhutoria.github.io/tech-blog",
+  "homepage": ".",
   "dependencies": {
     "@chakra-ui/gatsby-plugin": "^2.0.1",
     "@chakra-ui/react": "^1.6.3",
