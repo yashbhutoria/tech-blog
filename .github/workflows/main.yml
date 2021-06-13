@@ -10,11 +10,17 @@ on:
   workflow_dispatch:
 
 jobs:
+  install:
+    runs-on: ubuntu-latest
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: GitHub Action for Yarn
+      - name: Yarn Build
         uses: Borales/actions-yarn@v2.3.0
         with:
           cmd: build
+      - name: Yarn Test
+        uses: Borales/actions-yarn@v2.3.0
+        with:
+          cmd: test
