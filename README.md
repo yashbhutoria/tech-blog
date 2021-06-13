@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+[![CI/CD](https://github.com/yashbhutoria/tech-blog/actions/workflows/main.yml/badge.svg)](https://github.com/yashbhutoria/tech-blog/actions/workflows/main.yml)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
