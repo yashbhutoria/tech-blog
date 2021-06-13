@@ -1,4 +1,4 @@
-name: CI/CD
+name: CI-CD
 
 on:
   push:
@@ -33,9 +33,6 @@ jobs:
 
     - name: Install dependencies
       run: npm install
-
-    - name: Run the tests and generate coverage report
-      run: npm test -- --coverage
 
     - name: Build
       run: npm run build
